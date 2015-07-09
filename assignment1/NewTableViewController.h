@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewTableViewController.h
 //  assignment1
 //
 //  Created by Saibersys on 5/11/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NewTableViewController : UITableViewController
 
+@property NSArray * dataArray;
+@property NSDictionary * dict;
 
 @end
-
